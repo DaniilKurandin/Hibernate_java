@@ -16,6 +16,6 @@
         <property name="show_sql">true</property>
 
 
-        <mapping class="com.itvdn.Animal"/>
+        <mapping class="com.itvdn.decision1.Animal"/>
     </session-factory>
 </hibernate-configuration>

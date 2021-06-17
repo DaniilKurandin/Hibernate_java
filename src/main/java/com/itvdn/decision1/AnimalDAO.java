@@ -1,4 +1,4 @@
-package com.itvdn;
+package com.itvdn.decision1;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;

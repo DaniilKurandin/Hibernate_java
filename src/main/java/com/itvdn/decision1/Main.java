@@ -1,4 +1,4 @@
-package com.itvdn;
+package com.itvdn.decision1;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -8,9 +8,7 @@ public class Main {
     public static void main(String[] args) {
         Animal animal = new Animal("Tvarina", 11, true);
 
-        SessionFactory factory = new Configuration()
-                .configure()
-                .buildSessionFactory();
+        SessionFactory factory = new Configuration().configure().buildSessionFactory();
 
         Session session = factory.openSession();
         session.beginTransaction();
