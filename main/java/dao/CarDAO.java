@@ -4,7 +4,6 @@ import entity.Car;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-
 import java.util.List;
 
 public class CarDAO implements ICarDAO {
